@@ -10,7 +10,7 @@
   "scripts": {
     "commit": "git-cz",
     "start": "nodemon app.js",
-    "test": "set NODE_ENV='test' istanbul cover -x '**/test/**' _mocha -- -R spec test/**/*.js",
+    "test": "NODE_ENV='test' istanbul cover -x '**/test/**' _mocha -- -R spec test/**/*.js",
     "check-coverage": "istanbul check-coverage --statements 90 --branches 90 --functions 90 --lines 90",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release pre && semantic-release post",
