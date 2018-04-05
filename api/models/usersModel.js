@@ -11,7 +11,6 @@ let usersSchema = mongoose.Schema({
 	password: { type: String }
 });
 
-//pre save the date for each entry
 usersSchema.pre('save', function(next) {
 	var user = this;
 
