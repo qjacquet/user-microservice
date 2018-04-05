@@ -1,8 +1,8 @@
 {
-  "name": "user-microservice",
+  "name": "user-microservice-node",
   "version": "0.0.0-semantically-released",
   "private": true,
-  "description": "New Swagger API Project",
+  "description": "User microservice nodejs",
   "keywords": [],
   "author": "",
   "license": "",

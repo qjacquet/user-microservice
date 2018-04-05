@@ -1,5 +1,5 @@
-[![Build Status](https://api.travis-ci.org/qjacquet/user-microservice.svg?branch=master)](https://travis-ci.org/qjacquet/user-microservice)
-[![codecov](https://codecov.io/gh/qjacquet/user-microservice/branch/master/graph/badge.svg)](https://codecov.io/gh/qjacquet/user-microservice)
+[![Build Status](https://api.travis-ci.org/qjacquet/user-microservice-node.svg?branch=master)](https://travis-ci.org/qjacquet/user-microservice-node)
+[![codecov](https://codecov.io/gh/qjacquet/user-microservice-node/branch/master/graph/badge.svg)](https://codecov.io/gh/qjacquet/user-microservice-node)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 # Swagger.io - NodeJS - MongoDB Starter 
 
@@ -11,7 +11,7 @@
 
 ### Installation
 ```
-git clone https://github.com/qjacquet/user-microservice.git
+git clone https://github.com/qjacquet/user-microservice-node.git
 npm install
 npm start
 ```
