@@ -34,7 +34,7 @@ describe('controllers', () => {
                     .field('firstName', "Jane")
                     .field('lastName', "Doe")
 						  .field('login', "testinguser@testing.com")
-						  .field('password', "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3")
+						  .field('password', "test")
                     .expect(200)
                     .end((err, res) => {
                         if (err) {
@@ -92,7 +92,7 @@ describe('controllers', () => {
                         firstName : 'Manny',
                         lastName  : 'Cats',
 								login     : "mytester@gmail123.com",
-								password	 : "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3"
+								password	 : "test"
                     })
                     .expect(200)
                     .end((err, res) => {
@@ -328,7 +328,7 @@ describe('controllers', () => {
                         firstName : "Jane",
                         lastName  : "Smith",
 								login     : "j@smithtest.com",
-								password  : "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
+								password  : "test",
                         save      : function (callback) {
                             callback(new Error('my error'));
                         }
@@ -369,7 +369,7 @@ describe('controllers', () => {
                         firstName : "Jane",
                         lastName  : "Smith",
 								login     : "j@smithtest.com",
-								password  : "a94a8fe5ccb19ba61c4c0873d391e987982fbbd3",
+								password  : "test",
                         save      : function (callback) {
                             callback(hasError, hasUser);
                         }
